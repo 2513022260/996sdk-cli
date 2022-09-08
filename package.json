@@ -1,0 +1,25 @@
+{
+  "name": "996sdk-cli",
+  "version": "1.0.0",
+  "description": "sdk 相关模板",
+  "main": "index.js",
+  "bin": {
+    "996sdk": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangdongdong",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.0.1",
+    "commander": "^9.4.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4",
+    "log-symbols": "^5.1.0",
+    "ora": "^5.4.1"
+  }
+}
