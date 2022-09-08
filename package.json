@@ -1,7 +1,7 @@
 {
   "name": "996sdk-cli",
   "version": "1.0.0",
-  "description": "sdk 相关模板",
+  "description": "996sdk-cli 相关模板",
   "main": "index.js",
   "bin": {
     "996sdk": "./bin/cli.js"
@@ -9,7 +9,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "author": "zhangdongdong",
+  "keywords": [
+    "996sdk-cli",
+    "996sdk",
+    "脚手架"
+  ],
   "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",
